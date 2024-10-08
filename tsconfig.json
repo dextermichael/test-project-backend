@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6", // or "esnext"
+    "module": "commonjs", // or "esnext" based on your setup
+    "strict": true,
+    "esModuleInterop": true, // This enables default imports for CommonJS modules
+    "skipLibCheck": true, // Optional: to skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true
+  }
+}
